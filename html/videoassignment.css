@@ -1,0 +1,190 @@
+ 
+
+
+
+
+.headerSection{
+     
+}
+.headLogo{
+    padding-top: 22px;
+}
+.headLogo h3:hover{
+    color: rgb(134, 130, 132);
+}
+.headLogo i {
+    height: 40px;
+    width: 50px;
+    background: #06e7ef;
+    color: #fff;
+    font-size: 30px;
+    /* padding: 0px; */
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+}
+.navbar ul{}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  color: rgb(0, 0, 0);
+}
+.navbar ul li a:hover{
+    color: rgb(16, 172, 133);
+}
+
+#hButton {
+    border: 2px solid #08e6ce;
+    padding: 8px 34px;
+    color: #06e1f7;
+    font-weight: 900;
+    margin-top: 14px;
+}
+.navbar ul li ul{
+    width: 200px;
+    background-color: rgb(245, 240, 240);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding-left: 0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+.navbar ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+.navbar ul li ul li{
+    display: block;
+    text-align: left;
+    /* border-bottom: 1px solid rgb(48, 46, 46); */
+}
+.navbar ul li ul li a{
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 1px solid rgb(48, 46, 46);
+}
+.navbar ul li ul:last-child li a{
+    border-bottom: none;
+}
+.bannar{
+    background-image: url(https://mobirise.com/extensions/appamp/assets/images/mbr-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 100px 0; */
+    background-position: center;
+}
+.banner-bg{
+background-color: rgba(0, 0, 0, 0.322);
+}
+.bannerText{
+    text-align: center;
+    width: 500px;
+    margin: 100px auto;
+    color: #fff;
+}
+.bannerText h3{
+    padding: 30px 0;
+}
+.bannerText h1{
+    font-size: 60px;
+    padding-bottom: 35px;
+}
+.bannerText button{
+    padding: 15px 46px;
+    border: none;
+}
+.bannerText button:hover{
+    background-color: rgb(24, 106, 212);
+    color: #fff;
+}
+.watchVideo{
+    padding: 120px 0;
+}
+.allBlock{
+    padding: 120px;
+}
+.Block {
+    background: #f0f1f0;
+    padding: 30px;
+    margin: 10px 0;
+}
+.Block i{
+    font-size: 35px
+}
+.today{
+    padding: 10px 0 100px;
+background-color: #e7e8eb;
+}
+.today h4{
+    color: #828282;
+
+}
+.t-block{
+    background-color: rgb(255, 255, 255);
+    /* margin: 5px; */
+    padding: 19px;
+    color: #000;
+    border-radius: 5px;
+}
+.t-block:hover{
+    color: #fff;
+    background-color: #6278DF;
+}
+.t-block h4{
+    color: #000;
+    margin: 10px 0;
+}
+.t-block span{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 16px 0;
+    /* display: block; */
+}
+.t-block h5{
+    margin: 20px 0;
+}
+.t-block p{
+    font-size: 20px;
+}
+.tList{
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid #949090;
+    padding: 33px;
+}
+.tList ul li{
+    list-style: none;
+    text-align: left;
+    line-height: 55px;
+}
+.tList ul li i {
+    font-size: 25px;
+    color: #6278DF;
+}
+.tList button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 81px;
+    border: none;
+    border-radius: 7px;
+    background-color: #6278DF;
+}
+.tList button:hover{
+    background-color: #000;
+    color: #fff;
+}
+.seurch{
+    background-color: #F7F9FF;
+}
+.searchbar{}
+
+
+
+
